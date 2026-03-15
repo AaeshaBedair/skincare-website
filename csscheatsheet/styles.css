@@ -1,0 +1,136 @@
+       body {
+            margin: 0;
+            font-family: 'Playpen Sans', sans-serif;
+        }
+        .header {
+            background-color: rgb(252, 198, 220);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .header img {
+            height: 70px;
+        }
+
+        .landing-page-image-container img {
+            width: 50%;
+            height: 50%;
+            border-radius: 50px; 
+            float: right;
+        }
+
+        .landing-page-left-section {
+            width: 1500px;
+        }
+
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgb(69, 40, 49);
+            font-family: 'Parisienne', cursive;
+            font-size: 24px;
+       }
+       
+       .header-links a {
+            color: rgb(69, 40, 49);
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 15px ;
+
+       }
+
+         .header-links a:hover {
+                background-color: #fbd7ea;
+         }
+
+        .btn {
+            background-color: rgb(144, 90, 112);
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-family: 'playpen sans', sans-serif;
+
+        }
+
+            .btn:hover {
+                    background-color: #fbd7ea;
+            }
+
+        .landing-page {
+            background-color: rgb(252, 198, 220);
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            color: rgb(69, 40, 49);
+            border-radius: 0 0 50px 50px;
+        }
+ 
+        .landing-page h1 {
+            font-size: 50px;
+        }
+
+        .landing-page-search input {
+            border-radius: 50px; 
+            border: none;
+            outline: none;
+            height: 30px;
+            padding: 0 10px;
+        }
+
+        .landing-page-search button {
+            position: absolute;
+            left: 200px;
+            height: 30px;
+        }
+
+        .recommended-for-you-header {
+            padding: 10px 50px;
+            color: rgb(69, 40, 49);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+         .recommended-for-you{
+            padding: 10px 50px;
+        }
+
+        .card {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            width: 300px;
+            border-color: #fbd7ea;
+            border-radius: 15px;
+            align-items: center;
+               
+        }
+
+        .card-info {
+            background-color: rgb(252, 198, 220);
+            border-radius: 15px;
+            padding: 5px 25px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }   
+         
+        .hidden {
+            display: none;
+        }
+            
